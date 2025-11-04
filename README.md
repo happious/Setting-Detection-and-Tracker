@@ -40,6 +40,71 @@ python realtime.py
 
 
 
+## Jetson
+버전 확인
+```
+sudo apt list nvidia-jetpack
+```
+
+### 1.JetPack 5.1 또는 5.1.2 (CUDA 11.4 / 11.8, Python 3.8)
+```
+pip3 install torch==1.13.0+nv23.05 torchvision==0.14.0+nv23.05 \
+  --extra-index-url https://pypi.ngc.nvidia.com
+```
+
+### 2. JetPack 6.0 (CUDA 12.2, Python 3.10)
+```
+pip3 install torch==2.1.0+nv24.05 torchvision==0.16.0+nv24.05 \
+  --extra-index-url https://pypi.ngc.nvidia.com
+```
+
+CUDA 인식 확인
+```
+python3 -c "import torch; print(torch.__version__); print(torch.cuda.is_available())"
+```
+
+
+### 3. Requirements
+
+ONNX
+```
+pip3 install onnxruntime-gpu-aarch64==1.14.1
+```
+
+초기설정
+```
+sudo apt-get update
+sudo apt-get install -y python3-pip python3-dev g++ cmake libopenblas-base libopenmpi-dev
+pip3 install --upgrade pip setuptools wheel
+```
+
+```
+numpy
+cython
+git+https://github.com/cocodataset/cocoapi.git#subdirectory=PythonAPI&egg=pycocotools
+submitit
+git+https://github.com/cocodataset/panopticapi.git#egg=panopticapi
+scipy
+termcolor
+addict
+yapf
+timm
+opencv_python
+loguru
+scikit-image
+tqdm
+Pillow
+thop
+ninja
+tabulate
+tensorboard
+lap
+filterpy
+h5py
+```
+
+
+
 
 
 
