@@ -23,7 +23,7 @@ pip install -r requirements.txt
 ```
 cd DINO
 mkdir weights
-mv ~/downloads/checkpoint0029_4scale_swin.pth ~/Setting-Detection-and-Tracker/DINO/weights/
+mv ~/Downloads/checkpoint0029_4scale_swin.pth ~/Setting-Detection-and-Tracker/DINO/weights/
 ```
 
 ```
@@ -37,6 +37,7 @@ cd ../../..
 ```
 python realtime.py
 ```
+
 
 
 
