@@ -3,7 +3,7 @@
 
 Download **checkpoint0029_4scale_swin.pth**
 
-<br><br><br>
+<br><br>
 
 # 1.Installation
 
@@ -42,7 +42,7 @@ python test.py
 cd ../../../..
 ```
 
-
+<br><br>
 
 
   
@@ -151,13 +151,14 @@ python3.10 test.py
 cd ../../../..
 ```
 
-
+<br><br>
 
   
 # 2.DEMO
 ```
 python realtime.py
 ```
+
 
 
 
