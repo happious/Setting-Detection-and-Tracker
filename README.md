@@ -44,6 +44,7 @@ cd ../../../..
 
 
 
+  
 ## 2. RTX 40 Series
 **test : Python=3.10, PyTorch=2.4.0, Torchvision=0.19.0, CUDA=12.2**
 
@@ -151,11 +152,12 @@ cd ../../../..
 
 
 
-
+  
 # 2.DEMO
 ```
 python realtime.py
 ```
+
 
 
 
