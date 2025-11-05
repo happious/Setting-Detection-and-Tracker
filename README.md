@@ -3,6 +3,7 @@
 
 Download **checkpoint0029_4scale_swin.pth**
 
+<br><br><br>
 
 # 1.Installation
 
@@ -86,7 +87,7 @@ python3.10 -m pip install torch==2.4.0+cu122 torchvision==0.19.0+cu122 --index-u
 ```
 
 ```
-#Check
+# Check
 python3.10 - <<'EOF'
 import torch
 print("Torch:", torch.__version__)
@@ -97,7 +98,7 @@ EOF
 ```
 
 ```
-#Ex
+# Ex
 Torch: 2.4.0+cu122
 CUDA runtime: 12.2
 CUDA available: True
@@ -157,6 +158,7 @@ cd ../../../..
 ```
 python realtime.py
 ```
+
 
 
 
