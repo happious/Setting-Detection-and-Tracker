@@ -131,7 +131,6 @@ mv ~/Downloads/checkpoint0029_4scale_swin.pth ~/Setting-Detection-and-Tracker/DI
 
 **iv. build**
 ```
-```
 cd models/dino/ops
 python3.10 setup.py build install --user
 python3.10 test.py
@@ -143,6 +142,7 @@ cd ../../../..
 ```
 python realtime.py
 ```
+
 
 
 
