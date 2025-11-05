@@ -138,10 +138,11 @@ cd ../../../..
 ```
 
 
-## 2.DENO
+## 2.DEMO
 ```
 python realtime.py
 ```
+
 
 
 
